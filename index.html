@@ -186,19 +186,6 @@
                                 <input class="form-control text-uppercase Idade" type="text" name="Idade" maxlength="100" />
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="form-group">
-                                <label for="Cargo">Peso</label>
-                                <select class="form-control" id="peso" name="Peso">
-                                    <option></option>
-                                    <option>100Kg - 200Kg</option>
-                                    <option>200Kg - 300Kg</option>
-                                    <option>300Kg - 400Kg</option>
-                                    <option>400Kg - 500Kg</option>
-                                    <option>500Kg - 600Kg</option>
-                                </select>
-                            </div>
-                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 ">
@@ -215,149 +202,160 @@
                     </div>
                 </div>
             </div>
+        </div>    
             <br>
     <!-- /Filters -->
     <!-- List results -->
                 <div >
-                    
                     <div class="row d-flex justify-content-center">
                         <div  id="spinner" class="spinner-border text-success spinner"></div>
                     </div>
-
-                    <div id="table-response" class="row table-response">
-                        <div class="col-sm-12">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">ID Animal</th>
-                                        <th scope="col">Raça</th>
-                                        <th scope="col">Sexo</th>
-                                        <th scope="col">Idade</th>
-                                        <th scope="col">Peso</th>
-                                        <th scope="col"></th>
-                                    </tr>
-                                </thead>
-                         <tbody>
-                             <tr>
-                                 <td>
-                                     001
-                                 </td>
-                                 <td>
-                                    Angus
-                                </td>
-                                <td>
-                                    Macho
-                                </td>
-                                <td>
-                                    18 meses
-                                </td>
-                                <td>
-                                    420 Kg
-                                </td>
-                                <td>
-                                    <div class="dropdown">
-                                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                                            <i class="fa fa-bars" aria-hidden="true"></i>
-                                        </button>
-                                        <div class="dropdown-menu">
-                                          <a class="dropdown-item" href="#"> <i class="fa fa-info-circle"></i><span style="margin-left: 9px;">Info</span></a>
-                                          <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> <span style="margin-left: 2px;">Editar</span></a>
-                                          <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> <span style="margin-left: 6px;">Excluir</span></a>
-                                        </div>
-                                      </div>
-                                </td>
-                             </tr>
-                             <tr>
-                                <td>
-                                    002
-                                </td>
-                                <td>
-                                   Indubrasil
-                               </td>
-                               <td>
-                                   Macho
-                               </td>
-                               <td>
-                                   15 meses
-                               </td>
-                               <td>
-                                   340 Kg
-                               </td>
-                               <td>
-                                   <div class="dropdown">
-                                       <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                                           <i class="fa fa-bars" aria-hidden="true"></i>
-                                       </button>
-                                       <div class="dropdown-menu">
-                                         <a class="dropdown-item" href="#"> <i class="fa fa-info-circle"></i><span style="margin-left: 9px;">Info</span></a>
-                                         <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> <span style="margin-left: 2px;">Editar</span></a>
-                                         <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> <span style="margin-left: 6px;">Excluir</span></a>
-                                       </div>
-                                     </div>
-                               </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    003
-                                </td>
-                                <td>
-                                   Angus
-                               </td>
-                               <td>
-                                   Macho
-                               </td>
-                               <td>
-                                   12 meses
-                               </td>
-                               <td>
-                                   300 Kg
-                               </td>
-                               <td>
-                                   <div class="dropdown">
-                                       <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                                           <i class="fa fa-bars" aria-hidden="true"></i>
-                                       </button>
-                                       <div class="dropdown-menu">
-                                         <a class="dropdown-item" href="#"> <i class="fa fa-info-circle"></i><span style="margin-left: 9px;">Info</span></a>
-                                         <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> <span style="margin-left: 2px;">Editar</span></a>
-                                         <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> <span style="margin-left: 6px;">Excluir</span></a>
-                                       </div>
-                                     </div>
-                               </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    004
-                                </td>
-                                <td>
-                                   Nelore
-                               </td>
-                               <td>
-                                   Fêmea
-                               </td>
-                               <td>
-                                   13 meses
-                               </td>
-                               <td>
-                                   360 Kg
-                               </td>
-                               <td>
-                                   <div class="dropdown">
-                                       <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-                                           <i class="fa fa-bars" aria-hidden="true"></i>
-                                       </button>
-                                       <div class="dropdown-menu">
-                                         <a class="dropdown-item" href="#"> <i class="fa fa-info-circle"></i><span style="margin-left: 9px;">Info</span></a>
-                                         <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> <span style="margin-left: 2px;">Editar</span></a>
-                                         <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> <span style="margin-left: 6px;">Excluir</span></a>
-                                       </div>
-                                     </div>
-                               </td>
-                            </tr>
-                         </tbody>
-                            </table>
-                        </div> 
-    </body>
+                </div>
+    <!-- /List results -->
+    <div class="container"> 
+        <div id="table-response" class="row table-response">
+            <div class="col-sm-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID Animal</th>
+                            <th scope="col">Raça</th>
+                            <th scope="col">Sexo</th>
+                            <th scope="col">Idade</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                001
+                            </td>
+                            <td>
+                                Angus
+                            </td>
+                            <td>
+                                Macho
+                            </td>
+                            <td>
+                                18 meses
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button type="button" class="btn btn-primary dropdown-toggle"
+                                        data-toggle="dropdown">
+                                        <i class="fa fa-bars" aria-hidden="true"></i>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#"> <i
+                                                class="fa fa-info-circle"></i><span
+                                                style="margin-left: 9px;">Info</span></a>
+                                        <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> <span
+                                                style="margin-left: 2px;">Editar</span></a>
+                                        <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> <span
+                                                style="margin-left: 6px;">Excluir</span></a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                002
+                            </td>
+                            <td>
+                                Indubrasil
+                            </td>
+                            <td>
+                                Macho
+                            </td>
+                            <td>
+                                15 meses
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button type="button" class="btn btn-primary dropdown-toggle"
+                                        data-toggle="dropdown">
+                                        <i class="fa fa-bars" aria-hidden="true"></i>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#"> <i
+                                                class="fa fa-info-circle"></i><span
+                                                style="margin-left: 9px;">Info</span></a>
+                                        <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> <span
+                                                style="margin-left: 2px;">Editar</span></a>
+                                        <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> <span
+                                                style="margin-left: 6px;">Excluir</span></a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                003
+                            </td>
+                            <td>
+                                Angus
+                            </td>
+                            <td>
+                                Macho
+                            </td>
+                            <td>
+                                12 meses
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button type="button" class="btn btn-primary dropdown-toggle"
+                                        data-toggle="dropdown">
+                                        <i class="fa fa-bars" aria-hidden="true"></i>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#"> <i
+                                                class="fa fa-info-circle"></i><span
+                                                style="margin-left: 9px;">Info</span></a>
+                                        <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> <span
+                                                style="margin-left: 2px;">Editar</span></a>
+                                        <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> <span
+                                                style="margin-left: 6px;">Excluir</span></a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                004
+                            </td>
+                            <td>
+                                Nelore
+                            </td>
+                            <td>
+                                Fêmea
+                            </td>
+                            <td>
+                                13 meses
+                            </td>
+                            <td>
+                                <div class="dropdown">
+                                    <button type="button" class="btn btn-primary dropdown-toggle"
+                                        data-toggle="dropdown">
+                                        <i class="fa fa-bars" aria-hidden="true"></i>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#"> <i
+                                            class="fa fa-info-circle"></i><span
+                                            style="margin-left: 9px;">Info</span></a>
+                                        <a class="dropdown-item" href="#"> <i class="fa fa-edit"></i> <span
+                                            style="margin-left: 2px;">Editar</span></a>
+                                        <a class="dropdown-item" href="#"> <i class="fa fa-trash"></i> <span
+                                            style="margin-left: 6px;">Excluir</span></a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>            
+</body>
 <!--Scrip-->
 <script type="text/javascript">
 
@@ -381,4 +379,4 @@
 
     }
 
-  </script>
+</script>
